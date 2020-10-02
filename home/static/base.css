@@ -5,6 +5,33 @@
 }
 
 body {
-  font-family: "Nunito", sans-serif;
+  background: #343434;
+  color: white;
+  font-family: "Nunito";
+}
+
+nav {
+  position: absolute;
+  left: 0;
+  top: 0;
   width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  width: 400px;
+  display: flex;
+  justify-content: space-around;
+  margin-right: 50px;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+.logo {
+  margin-left: 50px;
 }
