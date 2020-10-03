@@ -8,6 +8,8 @@ body {
   background: #343434;
   color: white;
   font-family: "Nunito";
+  width: 100%;
+  overflow-x: hidden;
 }
 
 nav {
@@ -26,12 +28,56 @@ nav ul {
   display: flex;
   justify-content: space-around;
   margin-right: 50px;
+  display: none;
 }
 
 nav ul li {
   display: inline-block;
+  margin-right: 20px;
 }
 
 .logo {
   margin-left: 50px;
+}
+
+.hamburger {
+  margin-right: 50px;
+  cursor: pointer;
+  position: relative;
+  z-index: 2;
+}
+
+.side-nav {
+  width: 100%;
+  height: 100%;
+  background: #343434;
+  position: absolute;
+  top: 0;
+  left: 100%;
+  z-index: 1;
+
+  display: flex;
+  justify-content: center;
+}
+
+.slide-nav {
+  position: relative;
+  margin-top: 75px;
+}
+
+.slide-nav li {
+  display: block;
+  text-align: center;
+  font-size: 34px;
+  margin-top: 32px;
+}
+
+@media screen and (min-width: 840px) {
+  .hamburger {
+    display: none;
+  }
+
+  nav ul {
+    display: block;
+  }
 }

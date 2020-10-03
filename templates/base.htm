@@ -19,13 +19,40 @@
         <nav>
           <h2 class="logo">Bilal Uddin</h2>
 
+          <img
+            src="{% static 'home/imgs/hamburger.svg' %}"
+            alt="hamburger"
+            class="hamburger"
+          />
+
           <ul>
             <li>About Me</li>
             <li>Projects</li>
             <li>Contact</li>
           </ul>
         </nav>
+
+        <div class="side-nav">
+          <ul class="slide-nav">
+            <li>About Me</li>
+            <li>Projects</li>
+            <li>Contact</li>
+          </ul>
+        </div>
       </div>
     </div>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"
+      integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ=="
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.js"
+      integrity="sha256-kRbW+SRRXPogeps8ZQcw2PooWEDPIjVQmN1ocWVQHRY="
+      crossorigin="anonymous"
+    ></script>
+    <script src="{% static 'base.js' %}"></script>
   </body>
 </html>
