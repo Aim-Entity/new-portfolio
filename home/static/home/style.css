@@ -45,6 +45,103 @@ svg {
   font-weight: bold;
 }
 
+.companies {
+  width: 100%;
+  height: 88px;
+
+  border: 1px solid #413f3f;
+  box-sizing: border-box;
+  margin-top: 64px;
+}
+
+.section2 {
+  width: 95%;
+  margin: 0 auto;
+  margin-top: 64px;
+}
+
+.project-svg {
+  width: 345px;
+  height: 187px;
+}
+
+.sub-title,
+.main-title,
+.main-par {
+  text-align: center;
+}
+
+.sub-title {
+  margin-top: 20px;
+}
+
+.main-title {
+  margin-top: 10px;
+}
+
+.main-par {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.section-btn {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.section3 {
+  width: 85%;
+  margin: 0 auto;
+  margin-top: 84px;
+}
+
+.section3-img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50px;
+  display: inline-block;
+
+  background: #c4c4c4;
+}
+
+.section3-name {
+  position: relative;
+  font-size: 36px;
+  display: inline-block;
+  bottom: 20px;
+  margin-left: 10px;
+}
+
+.section3-quote {
+  font-size: 18px;
+}
+
+.s3-slider {
+  border: 1px solid white;
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+}
+
+.section3-slider {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 35px;
+  width: 40%;
+}
+
+.s3-slider1 {
+  background: #fff;
+}
+
+.section4 {
+  width: 95%;
+  margin: 0 auto;
+  margin-top: 64px;
+}
+
 @media screen and (min-width: 840px) {
   body {
     font-size: 22px;
