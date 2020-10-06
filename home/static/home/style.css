@@ -142,6 +142,75 @@ svg {
   margin-top: 64px;
 }
 
+.s5-container {
+  background-color: #2a99bf;
+  height: 2851px;
+  margin-top: 60px;
+}
+
+.s5-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+}
+
+.s5-box {
+  position: relative;
+  top: 25px;
+  width: 300px;
+  height: 420px;
+  margin: 0 auto;
+  margin-top: 25px;
+
+  background: #ffffff;
+  border-radius: 30px;
+}
+
+.s5-number,
+.s5-title,
+.s5-par {
+  color: black;
+}
+
+.s5-img {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 25px;
+}
+
+.s5-detail {
+  width: 40%;
+  margin-top: 15px;
+  margin-left: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.s5-title {
+  margin-left: 10px;
+
+  font-size: 32px;
+
+  color: #343434;
+}
+
+.s5-par {
+  width: 80%;
+  position: relative;
+  margin-left: 30px;
+  margin-top: 20px;
+
+  font-size: 18px;
+
+  color: #343434;
+}
+
+.s5-number {
+  font-size: 36px;
+
+  color: #343434;
+}
 @media screen and (min-width: 840px) {
   body {
     font-size: 22px;
