@@ -211,6 +211,12 @@ svg {
 
   color: #343434;
 }
+
+.section6 {
+  width: 95%;
+  margin: 0 auto;
+  margin-top: 64px;
+}
 @media screen and (min-width: 840px) {
   body {
     font-size: 22px;
