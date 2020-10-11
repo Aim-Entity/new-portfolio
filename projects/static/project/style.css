@@ -268,8 +268,14 @@
 
   .section7 {
     margin-top: -50px;
-    height: 440px;
+    height: 250px;
     border: 1px solid #413f3f;
+  }
+
+  .footer {
+    display: flex;
+    height: 250px;
+    align-items: center;
   }
 
   .footer-title {
@@ -284,10 +290,17 @@
   }
 
   .footer-social {
-    width: 80%;
+    width: 35%;
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
     margin-top: 30px;
+  }
+
+  .linked,
+  .youtube,
+  .instagram {
+    width: 66px;
+    height: 75px;
   }
 }
