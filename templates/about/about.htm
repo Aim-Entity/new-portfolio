@@ -6,14 +6,59 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   {% block header %}
-  <title>About</title>
+  <title>Projects</title>
   <link rel="stylesheet" href="{% static 'about/style.css' %}" />
   {% endblock %}
 </head>
 <body>
   {% block content %}
   <div class="container">
-    
+    <div class="section1">
+      <img src="{% static 'about/imgs/cover.jpg' %}" alt="cover" class="s1-cover">
+
+      <div class="item-detail">
+        <h2 class="item-name">Voltaic Gym Project</h2>
+
+        <div class="item-buttons">
+          <a href="#" class="cta main-content section-btn">Profile</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="section2">
+      <div class="section-header">
+        <div class="section-number">
+          <img src="{% static 'about/imgs/stroke.svg' %}" alt="stroke" class="section-stroke">
+
+          <h3>01</h3>
+        </div>
+
+        <h2 class="section-title">Wanna Know More About Me?</h2>
+      </div>
+
+      <div class="about-me">
+        <h2 class="name">Bilal Uddin</h2>
+
+        <p class="info">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima iure vitae neque labore esse facere quibusdam ab, porro fuga dolor quae numquam aperiam natus deserunt optio!</p>
+      </div>
+    </div>
+
+    <div class="section7">
+      <footer>
+        <div class="footer">
+          <h3 class="footer-title">Bilal Uddin 2020
+            Font-Awesome & FreePik</h3>
+
+          <div class="footer-social">
+            <a href="https://www.linkedin.com/feed/" target="__blank"><img src="{% static 'home/imgs/linkedin.svg' %}" alt="linkedin" class="linked"></a>
+            
+            <a href="https://www.youtube.com/channel/UC30e_OFzwKgXATYX3X9pBeA?view_as=subscriber" target="__blank"><img src="{% static 'home/imgs/youtube.svg' %}" alt="youtube" class="youtube"></a>
+
+            <a href="https://www.instagram.com/tangoprotocol/?hl=en" target="__blank"><img src="{% static 'home/imgs/instagram.svg' %}" alt="instagram" class="instagram"></a>
+          </div>
+        </div>
+      </footer>
+    </div>
   </div>
   {% endblock %}
 </body>

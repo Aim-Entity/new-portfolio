@@ -46,8 +46,13 @@ nav ul li a {
 
 .logo {
   margin-left: 50px;
+  color: #fff;
 
   font-size: 33px;
+}
+
+.logo-link {
+  text-decoration: none;
 }
 
 .hamburger {
