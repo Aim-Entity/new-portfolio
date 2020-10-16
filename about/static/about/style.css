@@ -12,7 +12,7 @@
 .item-name {
   position: relative;
   width: 298px;
-  bottom: 55px;
+  bottom: 5px;
 
   font-weight: 600;
   font-size: 48px;
@@ -34,7 +34,7 @@
   font-weight: 600;
   font-size: 18px;
 
-  margin-top: 20px;
+  margin-top: 55px;
 }
 
 .item-buttons {
@@ -155,6 +155,10 @@
   margin-top: 45px;
 }
 
+.desktop-diagram {
+  display: none;
+}
+
 .s5-container {
   width: 320px;
   height: 1650px;
@@ -162,6 +166,13 @@
 
   background: #ffffff;
   border-radius: 20px;
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo-cont {
   display: flex;
 
   flex-direction: column;
@@ -269,14 +280,193 @@
 
   .section2 {
     width: 100%;
-    height: 870px;
-    margin-top: 0px;
 
     background: #ffffff;
   }
 
+  .white-section {
+    background: #ffffff;
+    height: 1638px;
+    width: 101%;
+  }
+
+  .section-header {
+    position: relative;
+
+    display: flex;
+    align-items: center;
+  }
+
+  .section-title {
+    color: #000;
+    width: 100%;
+    font-size: 48px;
+    margin-top: 100px;
+
+    margin-left: 15px;
+  }
+
+  .section-header h3 {
+    color: #000;
+  }
+
+  .section-number {
+    display: flex;
+    margin-top: 100px;
+  }
+
+  .section-number h3 {
+    font-weight: 600;
+    font-size: 48px;
+    margin-left: 15px;
+
+    color: #2a99bf;
+  }
+
+  .about-me {
+    margin-top: 120px;
+    margin-left: 51px;
+  }
+
+  .name {
+    font-size: 36px;
+  }
+
+  .info {
+    width: 495px;
+    font-size: 24px;
+    margin-top: 25px;
+
+    color: #6a6a6a;
+  }
+
+  .section3 {
+    margin-top: 100px;
+  }
+
+  .section3-modules {
+    margin-top: 100px;
+
+    color: #000;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .module {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .module-title {
+    text-align: center;
+    margin-top: 35px;
+
+    font-weight: 600;
+    font-size: 36px;
+
+    color: #000000;
+  }
+
+  .module-par {
+    text-align: center;
+    margin-top: 15px;
+
+    font-size: 14px;
+    line-height: 35px;
+    width: 300px;
+
+    color: #6a6a6a;
+  }
+
+  .module-code {
+    width: 206px;
+    height: 206px;
+  }
+
+  .module-success {
+    width: 206px;
+    height: 206px;
+  }
+
+  .module {
+    margin-top: 60px;
+  }
+
+  .module-icon {
+    margin-bottom: 30px;
+  }
+
+  .phone-diagram {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+
+    margin-top: 45px;
+    display: none;
+  }
+
+  .desktop-diagram {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+
+    margin-top: 45px;
+    margin-bottom: 150px;
+  }
+
+  .s5-title {
+    display: none;
+  }
+
+  .s5-container {
+    width: 1170px;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 200px;
+
+    background: #ffffff;
+    border-radius: 20px;
+    display: grid;
+
+    justify-items: center;
+    align-items: center;
+  }
+
+  .s5-logo {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-left: 85px;
+    margin-top: 35px;
+  }
+
+  .django {
+    width: 300px;
+  }
+
+  .css {
+    object-fit: none;
+  }
+
+  .s5-title {
+    color: #000;
+    font-size: 32px;
+    margin-top: 30px;
+  }
+
+  .logo-cont {
+    display: block;
+
+    flex-direction: column;
+    align-items: center;
+  }
+
   .section7 {
-    margin-top: -50px;
+    margin-top: 50px;
     height: 250px;
     border: 1px solid #413f3f;
   }

@@ -228,7 +228,7 @@ svg {
 }
 
 .section7 {
-  margin-top: 75px;
+  margin-top: 25px;
   height: 440px;
   border: 1px solid #413f3f;
 }
@@ -533,9 +533,15 @@ svg {
   }
 
   .section7 {
-    margin-top: 75px;
-    height: 440px;
+    margin-top: 50px;
+    height: 250px;
     border: 1px solid #413f3f;
+  }
+
+  .footer {
+    display: flex;
+    height: 250px;
+    align-items: center;
   }
 
   .footer-title {
@@ -550,10 +556,17 @@ svg {
   }
 
   .footer-social {
-    width: 80%;
+    width: 35%;
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
     margin-top: 30px;
+  }
+
+  .linked,
+  .youtube,
+  .instagram {
+    width: 66px;
+    height: 75px;
   }
 }
