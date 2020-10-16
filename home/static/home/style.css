@@ -251,6 +251,13 @@ svg {
   margin: 0 auto;
   margin-top: 30px;
 }
+
+.contact-btn {
+  width: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 @media screen and (min-width: 840px) {
   body {
     font-size: 22px;
