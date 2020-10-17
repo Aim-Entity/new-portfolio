@@ -13,15 +13,16 @@
 <body>
   {% block content %}
   <div class="container">
+    {% for project in projects %}
     <div class="section1">
-      <img src="{% static 'project/imgs/cover.jpg' %}" alt="cover" class="s1-cover">
+      <img src="{{ project.cover.url }}" alt="cover" class="s1-cover">
 
       <div class="item-detail">
-        <h2 class="item-name">Voltaic Gym Project</h2>
+        <h2 class="item-name">{{ project.title|title }}</h2>
 
         <div class="item-buttons">
-          <a href="#" class="cta main-content section-btn">Visit Site</a>
-          <a href="#" class="cta main-content section-btn">GitHub Code</a>
+          <a href="{{ project.site }}" class="cta main-content section-btn">Visit Site</a>
+          <a href="{{ project.code }}" class="cta main-content section-btn">GitHub Code</a>
         </div>
       </div>
     </div>
@@ -30,58 +31,23 @@
       <div class="item-credentials">
         <div class="item-role item-section">
           <h3 class="cred-title cred-top">Role</h3>
-          <h3 class="cred-info">UI / UX Design</h3>
+          <h3 class="cred-info">{{ project.role }}</h3>
         </div>
         <div class="item-date item-section">
           <h3 class="cred-title">Date</h3>
-          <h3 class="cred-info">Aug 2019</h3>
+          <h3 class="cred-info">{{ project.date }}</h3>
         </div>
         <div class="item-overview item-section">
           <h3 class="cred-title">Overview</h3>
-          <h3 class="cred-info">I built a website tailored for a gym with many facilities</h3>
+          <h3 class="cred-info">{{ project.overview }}</h3>
         </div>
       </div>
 
       <div class="item-devices">
-        <img src="{% static 'project/imgs/phone.png' %}" alt="phone" class="item-phone">
-        <img src="{% static 'project/imgs/laptop.png' %}" alt="laptop" class="item-laptop">
+        <img src="{{ project.mockup.url }}" alt="mockup" class="item-mockup">
       </div>
     </div>
-
-    <div class="section1">
-      <img src="{% static 'project/imgs/cover.jpg' %}" alt="cover" class="s1-cover">
-
-      <div class="item-detail">
-        <h2 class="item-name">Voltaic Gym Project</h2>
-
-        <div class="item-buttons">
-          <a href="#" class="cta main-content section-btn">Visit Site</a>
-          <a href="#" class="cta main-content section-btn">GitHub Code</a>
-        </div>
-      </div>
-    </div>
-
-    <div class="section2">
-      <div class="item-credentials">
-        <div class="item-role item-section">
-          <h3 class="cred-title cred-top">Role</h3>
-          <h3 class="cred-info">UI / UX Design</h3>
-        </div>
-        <div class="item-date item-section">
-          <h3 class="cred-title">Date</h3>
-          <h3 class="cred-info">Aug 2019</h3>
-        </div>
-        <div class="item-overview item-section">
-          <h3 class="cred-title">Overview</h3>
-          <h3 class="cred-info">I built a website tailored for a gym with many facilities</h3>
-        </div>
-      </div>
-
-      <div class="item-devices">
-        <img src="{% static 'project/imgs/phone.png' %}" alt="phone" class="item-phone">
-        <img src="{% static 'project/imgs/laptop.png' %}" alt="laptop" class="item-laptop">
-      </div>
-
+    {% endfor %}
       <div class="section7">
         <footer>
           <div class="footer">
