@@ -332,7 +332,7 @@ svg {
 
     border: 1px solid #413f3f;
     box-sizing: border-box;
-    margin-top: 45vh;
+    margin-top: 65vh;
   }
 
   .section2 {
@@ -575,5 +575,12 @@ svg {
   .instagram {
     width: 66px;
     height: 75px;
+  }
+
+  .about-ctn {
+    width: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
