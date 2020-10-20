@@ -42,6 +42,8 @@ svg {
   padding: 0.5em 1em;
   border-radius: 0.2em;
   font-weight: bold;
+
+  transition: ease-out 350ms;
 }
 
 .companies {
@@ -582,5 +584,12 @@ svg {
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  .cta:hover {
+    color: #fff;
+    background-color: #343434;
+    border: 1px solid #f7f4d7;
+    transition: ease-in 350ms;
   }
 }
