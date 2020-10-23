@@ -8,7 +8,7 @@ My goal was to make a project speedly using my old code base and other resources
 
 TEST YOUR SELF:
 
-`pip install pipenv` # DONT DO THIS COMMAND IF YOU HAVE ALREADY INSTALLED PIPENV
+`pip install pipenv # DONT DO THIS COMMAND IF YOU HAVE ALREADY INSTALLED PIPENV`
 `pipenv shell`
 `pipenv install django==3.0.7, django-crispy-forms, pillow`
 
