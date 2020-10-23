@@ -1,3 +1,5 @@
 from django.db import models
 
-# Create your models here.
+
+class Cv(models.Model):
+    resume = models.FileField(upload_to="resume")
