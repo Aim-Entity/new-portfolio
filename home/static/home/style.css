@@ -103,48 +103,62 @@ svg {
 }
 
 .section3 {
-  width: 85%;
-  margin: 0 auto;
   margin-top: 84px;
 }
 
-.section3-img {
-  width: 70px;
-  height: 70px;
-  border-radius: 50px;
-  display: inline-block;
-
-  background: #c4c4c4;
+.s3-title {
+  width: 100%;
+  text-align: center;
+  font-size: 24px;
 }
 
-.section3-name {
-  position: relative;
-  font-size: 36px;
-  display: inline-block;
-  bottom: 20px;
-  margin-left: 10px;
+.s3-line {
+  width: 103px;
+  margin: 0 auto;
+  border-radius: 3px;
+  background-color: #f7f4d7;
+  border: 3px solid #f7f4d7;
+  margin-top: 10px;
 }
 
-.section3-quote {
-  font-size: 18px;
-}
+.s3-box {
+  width: 85%;
+  height: 405px;
+  background: #ebe8e8;
+  border: 2px solid #dcdcdc;
+  border-radius: 5px;
+  margin: 0 auto;
+  color: #000;
 
-.s3-slider {
-  border: 1px solid white;
-  width: 30px;
-  height: 30px;
-  border-radius: 50px;
-}
+  margin-top: 30px;
 
-.section3-slider {
   display: flex;
-  justify-content: space-between;
-  margin-top: 35px;
-  width: 40%;
+  flex-direction: column;
+  align-items: center;
 }
 
-.s3-slider1 {
-  background: #fff;
+.s3-name {
+  font-size: 24px;
+  text-align: center;
+
+  margin-top: 10px;
+}
+
+.s3-par {
+  width: 90%;
+  font-size: 1em;
+  text-align: center;
+
+  margin-top: 20px;
+}
+
+.s3-image {
+  width: 105px;
+  height: 105px;
+  background-color: #000;
+  border-radius: 50px;
+
+  margin-top: 10px;
 }
 
 .section4 {
@@ -299,6 +313,34 @@ svg {
     margin-top: 20vh;
   }
 
+  .s3-title {
+    font-size: 48px;
+  }
+
+  .s3-line {
+    width: 203px;
+  }
+
+  .s3-box {
+    width: 345px;
+    height: 445px;
+  }
+
+  .s3-box:hover {
+    position: relative;
+    bottom: 5px;
+  }
+
+  .s3-box-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .s3-par {
+    font-size: 18px;
+  }
+
   .section4 {
     width: 95%;
     margin: 0 auto;
@@ -405,58 +447,7 @@ svg {
   }
 
   .section3 {
-    width: 85%;
-    margin: 0 auto;
     margin-top: 154px;
-  }
-
-  .section3-img {
-    width: 150px;
-    height: 150px;
-    border-radius: 100px;
-    display: block;
-    margin: 0 auto;
-
-    background: #c4c4c4;
-  }
-
-  .section3-name {
-    position: static;
-    font-size: 36px;
-    display: block;
-    margin-left: 10px;
-    text-align: center;
-    margin-top: 15px;
-  }
-
-  .section3-quote {
-    font-size: 18px;
-    text-align: center;
-    font-size: 36px;
-    width: 755px;
-    margin: 0 auto;
-    margin-top: 35px;
-  }
-
-  .s3-slider {
-    border: 1px solid white;
-    width: 30px;
-    height: 30px;
-    border-radius: 50px;
-
-    cursor: pointer;
-  }
-
-  .section3-slider {
-    display: flex;
-    justify-content: space-between;
-    width: 25%;
-    margin: 0 auto;
-    margin-top: 55px;
-  }
-
-  .s3-slider1 {
-    background: #fff;
   }
 
   .section4 {

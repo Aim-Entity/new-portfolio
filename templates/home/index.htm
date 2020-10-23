@@ -1887,16 +1887,18 @@
       </div>
 
       <div class="section3">
-        <div class="identity">
-          <div class="section3-img"></div> <!-- Changed this to image soon -->
-          <h3 class="section3-name">Name</h3>
-        </div>
-        <p class="section3-quote">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit."</p>
+        <h2 class="s3-title">Testomonials</h2>
+        <hr class="s3-line">
 
-        <div class="section3-slider">
-          <div class="s3-slider1 s3-slider"></div>
-          <div class="s3-slider2 s3-slider"></div>
-          <div class="s3-slider3 s3-slider"></div>
+        <div class="s3-box-container">
+          {% for testimonial in testimonials %}
+            <div class="s3-box">
+              <img src="{{ testimonial.image.url }}" alt="Face" class="s3-image">
+              <h3 class="s3-name">{{ testimonial.name|title }}</h3>
+
+              <p class="s3-par">{{ testimonial.message }}</p>
+            </div>
+          {% endfor %}
         </div>
       </div>
 

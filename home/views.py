@@ -1,6 +1,11 @@
 from django.shortcuts import render
+from .models import Testimonial
 
 
 def index(request):
-    context = {}
+    testimonial = Testimonial.objects.all()
+
+    context = {
+        "testimonials": testimonial
+    }
     return render(request, "home/index.htm", context)
