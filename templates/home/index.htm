@@ -5,7 +5,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     {% block header %}
-    <title>Home</title>
+    <title>Bilal Uddin | Portfolio</title>
+    <meta name="description"
+      content="Visit my web development portfolio which includes my newest projects and ideas. My professional resume is included.">
+    <meta name="author" content="Bilal Uddin">
     <link rel="stylesheet" href="{% static 'home/style.css' %}" />
     {% endblock %}
   </head>
@@ -1807,7 +1810,7 @@
 
         <div class="companies">
           {% for logo in logos %}
-            <img src="{{ logo.image.url }}" alt="logo" class="logo">
+            <img src="{{ logo.image.url }}" alt="logo" class="company-logo">
           {% endfor %}
         </div>
       </div>

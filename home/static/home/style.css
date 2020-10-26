@@ -88,9 +88,10 @@ svg {
   font-weight: 600;
 }
 
-.logo {
+.company-logo {
   height: 43px;
   object-fit: cover;
+  margin-left: 10px;
 }
 
 .stroke {
@@ -392,9 +393,10 @@ svg {
     margin-top: 64px;
   }
 
-  .logo {
+  .company-logo {
     height: 100px;
     object-fit: cover;
+    margin-left: 40px;
   }
 
   .project-svg {
