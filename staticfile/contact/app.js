@@ -7,7 +7,7 @@ function formAnimation() {
       const tl = new TimelineLite({ paused: true, reversed: true });
 
       tl.to(e.target, 1, {
-        borderBottom: "12px solid #c7c3c3",
+        borderBottom: "12px solid #F7F4D7",
         ease: Power2.easeOut,
       });
       toggleTween(tl); // Invoked inside of event listener
@@ -18,7 +18,7 @@ function formAnimation() {
       const tl = new TimelineLite({ paused: true, reversed: true });
 
       tl.to(e.target, 1, {
-        borderBottom: "2px solid #c7c3c3",
+        borderBottom: "2px solid #F7F4D7",
         ease: Power2.easeOut,
       });
       toggleTween(tl);
